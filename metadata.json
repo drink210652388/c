@@ -1,0 +1,5 @@
+{
+  "name": "日历 v0.0.3",
+  "description": "瀑布流中国节假日日历，支持标记、计算、自定义节假日、快速回到今天",
+  "requestFramePermissions": []
+}
