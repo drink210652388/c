@@ -427,7 +427,7 @@ export const Calendar: React.FC = () => {
             </button>
           </div>
           <div className="text-xs font-bold text-blue-100 bg-blue-500/50 px-3 py-1.5 rounded-full border border-blue-400/30">
-            v0.0.3
+            v0.0.4
           </div>
         </div>
 
@@ -452,11 +452,13 @@ export const Calendar: React.FC = () => {
       </div>
 
       {/* Fixed Weekdays */}
-      <div className="flex-none px-6 py-3 bg-stone-100 z-10 shadow-sm relative">
-        <div className="grid grid-cols-7 gap-1 text-center text-xs font-bold text-stone-400">
-          {weekDays.map((day) => (
-            <div key={day} className="py-1">{day}</div>
-          ))}
+      <div className="flex-none px-4 sm:px-6 py-3 bg-stone-100 z-10 shadow-sm relative">
+        <div className="max-w-3xl mx-auto">
+          <div className="grid grid-cols-7 gap-1 sm:gap-2 text-center text-xs font-bold text-stone-400 px-4 sm:px-6">
+            {weekDays.map((day) => (
+              <div key={day} className="py-1">{day}</div>
+            ))}
+          </div>
         </div>
       </div>
 
